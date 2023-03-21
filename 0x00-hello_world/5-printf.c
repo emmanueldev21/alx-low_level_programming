@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
- * main - The entry point of my program
+ * main - Entry point
  *
- * Return: Return O if there is no error in main program
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
