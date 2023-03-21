@@ -1,24 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - The entry point of my program
+ *main - entry point
  *
- * Description: The program prints all single digit numbers
- * of base 10 starting from 0, followed by a new line.
+ *Description: prints all single digit characters of base 10
  *
- * Return: Return O if there is no error in main program
+ *Return: always zero
+ *
  */
 int main(void)
 {
-	int n = 0;
+	int i, dig;
 
-	while (n < 10)
+	for (i = 0, dig = 48; i < 10; i++, dig++)
 	{
-		printf("%d", n);
-		n++;
+		putchar(dig);
 	}
-	putchar('\n');
-
+	putchar(10);
 	return (0);
 }
